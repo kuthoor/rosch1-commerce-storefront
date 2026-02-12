@@ -1,0 +1,40 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://rosch1-b3oisda-xe526jop5it7s.eu-4.magentosite.cloud/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Pfjk9ENpDBUDA3s3LBwgtZ/graphql",
+      "headers": {
+        "cs": {
+           "Magento-Environment-Id": "a11f1e9b-eb89-4d02-8477-0f03a027e316",
+           "Magento-Website-Code": "base",
+           "Magento-Store-Code": "main_website_store",
+           "Magento-Store-View-Code": "default",
+           "X-Api-Key": "18ff18597e8246479984ff9716633561",
+
+           "AC-View-ID": "98a53f56-a0ef-49e3-96d2-9f5bec719387",
+           "AC-Source-Locale": "default",
+           "AC-Price-Book-ID": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+           "AC-Environment-Id": "Pfjk9ENpDBUDA3s3LBwgtZ"
+        }
+      },
+      "commerce-b2b-enabled": false,
+      "commerce-companies-enabled": false,
+      "commerce-assets-enabled": false,
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Testing",
+        "environment-id": "Pfjk9ENpDBUDA3s3LBwgtZ",
+        "locale": "default",
+        "store-url": "https://main--rosch1-b3oisda-xe526jop5it7s--kuthoor.aem.live",
+        "store-view-currency-code": "USD",
+        "storefront-template": "{{TEMPLATE_TYPE}}",
+        "view-id": "98a53f56-a0ef-49e3-96d2-9f5bec719387"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "{{ROOT_CATEGORY_ID}}"
+        }
+      }
+    }
+  }
+}
